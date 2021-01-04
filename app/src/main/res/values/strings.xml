@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Smart Parking</string>
+    <string-array name="spinnerItems">
+        <item>Sedan/Hatchback</item>
+        <item>MicroCar</item>
+        <item>Suv</item>
+        <item>Van</item>
+        <item>CamperVan</item>
+        <item>MiniTruck</item>
+        <item>Limo</item>
+    </string-array>
+    <string-array name="spinnerItemsAdmin">
+        <item>Motocycle</item>
+        <item>Sedan/Hatchback</item>
+        <item>MicroCar</item>
+        <item>Suv</item>
+        <item>Van</item>
+        <item>CamperVan</item>
+        <item>MiniTruck</item>
+        <item>Limo</item>
+    </string-array>
+</resources>

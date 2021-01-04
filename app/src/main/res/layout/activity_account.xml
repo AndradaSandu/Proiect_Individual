@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firstpagebackground1"
+    tools:context=".Account">
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="596dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="31dp" />
+
+            <TextView
+                android:id="@+id/FirstNameId"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:text="FirstName"
+                android:textColor="#D48C23"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/LastNameId"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="LastName"
+                android:textColor="#D48C23"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/EmailId"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="E-mail"
+                android:textColor="#D48C23"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/PhoneId"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="@android:string/emptyPhoneNumber"
+                android:textColor="#D48C23"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/PostaAdressId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Postal Adress"
+                android:textColor="#D48C23"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:id="@+id/ChooseyourvehicleId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose your vehicle"
+                android:textColor="#D48C23"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="202dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Vehicle number:"
+                    android:textSize="24sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerid"
+                    android:layout_width="211dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#D48C23" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/LicensePlateId"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="LicensePlate"
+                android:textColor="#D48C23"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/VehicleTypeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VehicleType"
+                android:textColor="#D48C23"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <CheckBox
+                android:id="@+id/ParkedID"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#D48C23"
+                android:clickable="false"
+                android:text="Parked"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/AddVehicleBtn2"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button11"
+                android:text="Add Vehicle" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <TextView
+                android:id="@+id/AddyourpreferencesId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add your preferences"
+                android:textColor="#D48C23"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/FloorId"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:text="Floor"
+                    android:textColor="#D48C23"
+                    android:textSize="24sp" />
+
+                <Spinner
+                    android:id="@+id/FloorSpinnerId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ZoneId"
+                    android:layout_width="258dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="Zone "
+                    android:textColor="#D48C23"
+                    android:textSize="24sp" />
+
+                <Spinner
+                    android:id="@+id/ZoneSpinnerId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="19dp" />
+
+            <Button
+                android:id="@+id/SaveyourpreferencesBtn"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/button11"
+                android:text="Save Your Preferences" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/PreferenceSaveID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF0000" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="MyAccount"
+        android:textColor="#D48C23"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loginicon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
